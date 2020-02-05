@@ -32,11 +32,11 @@ Gem::Specification.new do |spec|
   spec.add_dependency "net-ssh", ">= 2.9", "< 6.0"
   spec.add_dependency "net-scp", ">= 1.2", "< 3.0"
   spec.add_dependency "docker-api", "~> 1.26"
-  spec.add_dependency "azure_mgmt_resources", "~> 0.15"
-  spec.add_dependency "azure_graph_rbac", "~> 0.16"
-  spec.add_dependency "azure_mgmt_key_vault", "~> 0.17"
-  spec.add_dependency "azure_mgmt_security", "~> 0.18"
-  spec.add_dependency "azure_mgmt_storage", "~> 0.18"
+  # spec.add_dependency "azure_mgmt_resources", git: 'https://github.com/michaellihs/azure-sdk-for-ruby.git'
+  # spec.add_dependency "azure_graph_rbac", git: 'https://github.com/michaellihs/azure-sdk-for-ruby.git'
+  # spec.add_dependency "azure_mgmt_key_vault", git: 'https://github.com/michaellihs/azure-sdk-for-ruby.git'
+  # spec.add_dependency "azure_mgmt_security", git: 'https://github.com/michaellihs/azure-sdk-for-ruby.git'
+  # spec.add_dependency "azure_mgmt_storage", git: 'https://github.com/michaellihs/azure-sdk-for-ruby.git'
   spec.add_dependency "activesupport", "~> 5.2.3"
   spec.add_dependency "google-api-client", ">= 0.23.9", "< 0.35.0"
   spec.add_dependency "googleauth", ">= 0.6.6", "< 0.11.0"
